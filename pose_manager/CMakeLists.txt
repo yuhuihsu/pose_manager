@@ -18,7 +18,14 @@ add_message_files(
 
 add_service_files(
    FILES
-   add.srv
+   insert.srv
+   update.srv
+   deleteName.srv
+   deletePose.srv
+   deleteAll.srv
+   queryPose.srv
+   queryName.srv
+   queryAll.srv
 )
 
 generate_messages(

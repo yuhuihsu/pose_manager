@@ -1,0 +1,4 @@
+bool query
+---
+LocationArray locationArray
+bool result
